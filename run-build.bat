@@ -1,0 +1,1 @@
+docker build -t di-gcp-terraform:alpine --build-arg CLOUD_SDK_VERSION=348.0.0 --build-arg TERRAFORM_VERSION=1.0.0 .
